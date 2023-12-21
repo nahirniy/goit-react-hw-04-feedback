@@ -43,7 +43,7 @@ export const App = () => {
 
       <Section title={'Statistics'}>
         {total === 0 ? (
-          <Notification />
+          <Notification message="There is no feedback" />
         ) : (
           <Statistics
             good={good}
